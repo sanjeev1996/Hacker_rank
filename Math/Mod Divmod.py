@@ -1,0 +1,8 @@
+a=int(input())
+b=int(input())
+c=set()
+print((a//b))
+c.add(a//b)
+print((a%b))
+c.add(a%b)
+print(tuple(c))
